@@ -1,0 +1,6 @@
+.header-text-position{
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 15%;
+}
