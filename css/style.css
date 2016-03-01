@@ -1,6 +1,11 @@
 .header-text-position{
     position: absolute;
     z-index: 2;
-    top: 25%;
+    top: 35%;
     left: 15%;
+}
+
+.center-navbar{
+    position: absolute;
+    left: 45%;
 }
