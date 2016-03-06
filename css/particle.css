@@ -11,7 +11,7 @@ canvas {
 }
 
 #particles-js {
-  position: absolute;
+  position: relative;
   width: 100vw;
   height: 55vh;
   background-color: black;
