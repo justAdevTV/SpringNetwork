@@ -5,10 +5,14 @@ html {
 
 /* ---- particles.js container ---- */
 
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
 #particles-js {
-    background-color: #0c0808;
-    background-image: url('');
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+  position: absolute;
+  width: 100vw;
+  height: 55vh;
+  background-color: black;
 }
