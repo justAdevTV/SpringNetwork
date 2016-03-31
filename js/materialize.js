@@ -3513,6 +3513,7 @@ $(document).ready(function(){
 }( jQuery ));;(function ($) {
   $(document).ready(function() {
 
+      $('.modal-trigger').leanModal();
     $(document).on('click.chip', '.chip .material-icons', function (e) {
       $(this).parent().remove();
     });
