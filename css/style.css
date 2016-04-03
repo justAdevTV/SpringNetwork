@@ -7,6 +7,11 @@
     max-height: 0vh
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
