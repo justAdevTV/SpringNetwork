@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .header-text-position{
     position: absolute;
     z-index: 2;
@@ -5,11 +10,6 @@
     left: 25vh;
     max-width: 100vw;
     max-height: 0vh
-}
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 .noselect {
@@ -22,3 +22,6 @@ html, body {
                                   not supported by any browser */
 }
 
+.get-started-button-padding {
+    padding-top: 10px;
+}
