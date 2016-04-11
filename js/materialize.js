@@ -672,6 +672,7 @@ if ($) {
 
   $(document).ready(function(){
     $('.dropdown-button').dropdown();
+      $('.parallax').parallax();
   });
 }( jQuery ));;(function($) {
     var _stack = 0,
@@ -3720,6 +3721,8 @@ $(document).ready(function(){
 
 
   $(document).ready(function() {
+
+    // Hardcoded .staggered-list scrollFire
     // Hardcoded .staggered-list scrollFire
     // var staggeredListOptions = [];
     // $('ul.staggered-list').each(function (i) {
